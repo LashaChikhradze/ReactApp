@@ -1,0 +1,156 @@
+.contact{
+    padding-top: 50px;
+    .container{
+        .row{
+            .title{
+                text-align: center;
+                h1{
+                    color: #1E2D3B;
+                    letter-spacing: 0.05em;
+                    font-size: 60px;
+                }
+                .line{
+                    width: 10%;
+                    height: 10px;
+                    background: #edcd1f;
+                    margin: auto;
+                    margin-top: 10px;
+                }
+            }
+        }
+        .row{
+            .map{
+                iframe{
+                    border: 0px;
+                    margin-top: 50px;
+                }
+            }
+        }
+        .row{
+            .maxWidth{
+                max-width: 430px;
+                margin-top: 30px;
+                .line{
+                    width: 20%;
+                    height: 10px;
+                    background: #edcd1f;
+                    margin-top: 140px;
+                    margin-bottom: 30px;
+                }
+                p{
+                    font-size: 17px;
+                }
+                h2{
+                    font-size: 26px;
+                    margin-bottom: 20px;
+                }
+                form{
+                    .submit{
+                        width: 100%;
+                        display: flex;
+                        justify-content: flex-end;
+                        button{
+                            width: 36%;
+                            height: 40px;
+                            font-size: 14px;
+                            background: #3b3a3a;
+                            color: #e5c620;
+                            border: none;
+                            transition: .3s;
+                        }
+                        button:hover{
+                            color: #3b3a3a;
+                            background: #e5c620;
+                        }
+                    }
+                    div:hover{
+                        input, textarea{
+                            background: #C6C6C6;
+                        }
+                    }
+                    input{
+                        width: 100%;
+                        padding: 2px 10px;
+                        background: #f7f7f7;
+                        border: none;
+                    }
+                    input:focus, textarea:focus{
+                        outline: none;
+                        background: #f7f7f7;
+                    }
+                    input::placeholder, textarea::placeholder{
+                        color: #1E2D3B;
+                        font-size: 14px;
+                    }
+                    textarea{
+                        background: #f7f7f7;
+                        padding: 2px 10px;
+                        width: 100%;
+                        height: 160px;
+                        border: none;
+                    }
+                    h2{
+                        margin-bottom: 16px;
+                        font-size: 26px;
+                    }
+                    div{
+                        margin-bottom: 10px;
+                        p{
+                            margin-bottom: 6px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            .info{
+                max-width: 330px;
+                a{
+                    text-decoration: none;
+                    color: #1E2D3B;
+                }
+                h2{
+                    margin-bottom: 20px;
+                }
+                h2:last-child{
+                    margin-bottom: 0px;
+                }
+                .box1{
+                    margin-bottom: 30px;
+                }
+                .box2{
+                    margin-bottom: 50px;
+                }
+                div{
+                    p{
+                        margin: 0px;
+                    }
+                }
+            }
+        }
+        .cprs{
+            justify-content: space-between;
+            margin-top: 50px;
+            .socials{
+                a{
+                    text-decoration: none;
+                    color: #ffffff;
+                    margin-right: 10px;
+                    .fab{
+                        height: 30px;
+                        width: 30px;
+                        background: #000;
+                        border-radius: 50%;
+                        color: #ffffff;
+                        display: table-cell;
+                        vertical-align: middle; 
+                        text-align: center;
+                        margin-right: 100px;
+                    }
+                }
+                .a::last-child{
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+}

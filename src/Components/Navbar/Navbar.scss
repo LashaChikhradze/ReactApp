@@ -1,0 +1,68 @@
+.sphere{
+    .row{
+        height: 100px;
+        background: #1e2d3b;
+        .col-md-2{
+            background: #edcd1f;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            border: 0px solid rgba(148, 148, 148, 1);
+            padding: 0px;
+            margin: 0px;
+            img{
+                object-position: 50% 50%;
+                left: 30px;
+                position: absolute;
+                top: 25px;
+                width: 47px;
+                height: 49px;
+                object-fit: contain;
+            }
+            h4{
+                left: 93px;
+                position: absolute;
+                top: 27px;
+                line-height: 1em;
+                letter-spacing: 0.05em;
+                font-weight: 400;
+                font-size: 23px;
+                a{
+                    text-decoration: none;
+                    color: #3B3A3A;
+                    strong{
+                        color: #1E2D3B;
+                    }
+                }
+            }
+        }
+        .col-md-10{
+            position: relative;
+            padding: 0px;
+            margin: 0px;
+            ul{
+                display: flex;
+                justify-content: space-around;
+                width: 40%;
+                position: absolute;
+                bottom: 10px;
+                right: 30px;
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                        transition: .25s
+                    }
+                    a:hover{
+                        color: #bea825;
+                    }
+                    .active{
+                        color: #bea825;
+                    }
+                }
+            }
+        }
+    }
+}
